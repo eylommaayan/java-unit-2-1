@@ -28,7 +28,7 @@ public class Congruent {
         double x23 = scan.nextDouble();
         double y23 = scan.nextDouble();
         
-        // Calculate the l21engths of the sides of the first triangle
+        // Calculate the lengths of the sides of the first triangle
         double a1 = Math.sqrt(Math.pow(x12 - x11, 2) + Math.pow(y12 - y11, 2));
         double b1 = Math.sqrt(Math.pow(x13 - x12, 2) + Math.pow(y13 - y12, 2));
         double c1 = Math.sqrt(Math.pow(x11 - x13, 2) + Math.pow(y11 - y13, 2));
