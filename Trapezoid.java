@@ -53,7 +53,9 @@ public class Trapezoid {
         double perimeter = length1 + length2 + leftSide + rightSide;
 
         // Print the results with the required formatting
-        System.out.printf("The area of the trapezoid is ", area);
-        System.out.printf("The perimeter of the trapezoid is ", perimeter);
+        System.out.println("The area of the trapezoid is " + area);
+        System.out.println("The perimeter of the trapezoid is " + perimeter);
+        
     }
 }
+
